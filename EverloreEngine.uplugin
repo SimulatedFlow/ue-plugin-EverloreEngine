@@ -6,10 +6,10 @@
 	"FriendlyName": "Everlore Engine — AI Quest & Dialogue Director",
 	"Description": "Schema-enforced, validated, game-safe AI quests, dialogue and NPC roleplay. Bring your own backend (Google Gemini, Ollama, llama.cpp, or any HTTP endpoint) — generated content is validated, repaired and falls back to deterministic templates, so it can never put your game into an invalid state.",
 	"Category": "Code Plugins",
-	"CreatedBy": "Silvan Teufel — Teufel-Engineering.com",
-	"CreatedByURL": "https://teufel-engineering.com",
-	"DocsURL": "https://wiki.teufel-engineering.com/en/EverLoreEngine",
-	"SupportURL": "mailto:info@teufel-engineering.com",
+	"CreatedBy": "Simulated Flow",
+	"CreatedByURL": "https://github.com/SimulatedFlow",
+	"DocsURL": "https://github.com/SimulatedFlow/ue-plugin-EverloreEngine",
+	"SupportURL": "mailto:simulatedflow@gmail.com",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
@@ -43,7 +43,9 @@
 		{
 			"Name": "EditorScriptingUtilities",
 			"Enabled": true,
-			"TargetAllowList": [ "Editor" ]
+			"TargetAllowList": [
+				"Editor"
+			]
 		}
 	]
 }

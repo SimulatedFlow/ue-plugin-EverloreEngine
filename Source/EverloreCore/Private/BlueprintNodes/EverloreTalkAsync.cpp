@@ -1,4 +1,4 @@
-// Copyright 2026 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
+// Copyright 2026 Simulated Flow All Rights Reserved.
 
 #include "BlueprintNodes/EverloreTalkAsync.h"
 #include "Components/EverloreConversationComponent.h"

@@ -171,9 +171,20 @@ saved, or included in a request URL (they go in a request header only).
 ## Support & version
 
 - **Version:** 1.0.0 (UE 5.8)
-- **Documentation:** https://wiki.teufel-engineering.com/en/EverLoreEngine
-- **Support:** info@teufel-engineering.com
+- **Documentation:** https://github.com/SimulatedFlow
+- **Support:** simulatedflow@gmail.com
 
 ---
 
-*Everlore Engine — © 2026 Silvan Teufel / Teufel-Engineering.com. All rights reserved.*
+*Everlore Engine — © 2026 Simulated Flow. All rights reserved.*
+
+<!-- SF-STORE-BLOCK:BEGIN -->
+## 🛒 Source-available — see before you buy
+
+This repository contains the **full source** of a commercial Unreal Engine plugin. It is **source-available, not open source**: read it, evaluate it, then buy a license to use it. See **LICENSE.md (Fab / UE EULA)**.
+
+**Get it / Buy:**
+- Listing folgt — Kontakt: simulatedflow@gmail.com
+
+_© 2026 Simulated Flow. All rights reserved._
+<!-- SF-STORE-BLOCK:END -->
