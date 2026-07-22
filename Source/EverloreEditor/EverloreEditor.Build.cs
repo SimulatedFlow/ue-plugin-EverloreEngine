@@ -25,7 +25,6 @@ public class EverloreEditor : ModuleRules
 			"Blutility",
 			"UMGEditor",
 			"AssetRegistry",
-			"EditorScriptingUtilities",
 			"Slate",
 			"SlateCore",
 		});
