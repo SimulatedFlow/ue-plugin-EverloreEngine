@@ -9,7 +9,3 @@ DerivedDataCache/
 *.pdb
 .vs/
 StoreArt/*.log
-
-run_build.cmd
-*.lck
-~*
