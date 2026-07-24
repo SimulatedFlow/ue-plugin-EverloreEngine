@@ -7,47 +7,10 @@
 #include "Dom/JsonObject.h"
 #include "Serialization/JsonSerializer.h"
 #include "Serialization/JsonWriter.h"
+#include "EverloreJsonSchema.h" // shared Simple/EnumString/ArrayOf/SetRequired (unity-build safe)
 
 namespace
 {
-	TSharedRef<FJsonObject> Simple(const FString& Type)
-	{
-		TSharedRef<FJsonObject> O = MakeShared<FJsonObject>();
-		O->SetStringField(TEXT("type"), Type);
-		return O;
-	}
-
-	TSharedRef<FJsonObject> EnumString(const TArray<FString>& Values)
-	{
-		TSharedRef<FJsonObject> O = MakeShared<FJsonObject>();
-		O->SetStringField(TEXT("type"), TEXT("string"));
-		TArray<TSharedPtr<FJsonValue>> Arr;
-		for (const FString& V : Values)
-		{
-			Arr.Add(MakeShared<FJsonValueString>(V));
-		}
-		O->SetArrayField(TEXT("enum"), Arr);
-		return O;
-	}
-
-	TSharedRef<FJsonObject> ArrayOf(TSharedRef<FJsonObject> Items)
-	{
-		TSharedRef<FJsonObject> O = MakeShared<FJsonObject>();
-		O->SetStringField(TEXT("type"), TEXT("array"));
-		O->SetObjectField(TEXT("items"), Items);
-		return O;
-	}
-
-	void SetRequired(TSharedRef<FJsonObject> O, const TArray<FString>& Names)
-	{
-		TArray<TSharedPtr<FJsonValue>> Arr;
-		for (const FString& N : Names)
-		{
-			Arr.Add(MakeShared<FJsonValueString>(N));
-		}
-		O->SetArrayField(TEXT("required"), Arr);
-	}
-
 	FString JoinIds(const TSet<FName>& Ids, int32 Max = 40)
 	{
 		TArray<FString> Names;
@@ -62,6 +25,8 @@ namespace
 		return FString::Join(Names, TEXT(", "));
 	}
 }
+
+using namespace Everlore::Json;
 
 FString FEverloreQuestSchema::BuildResponseSchema()
 {

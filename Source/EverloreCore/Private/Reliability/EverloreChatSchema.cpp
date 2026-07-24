@@ -8,6 +8,7 @@
 #include "Serialization/JsonSerializer.h"
 #include "Serialization/JsonReader.h"
 #include "Serialization/JsonWriter.h"
+#include "EverloreJsonSchema.h" // shared Simple() helper (unity-build safe)
 
 namespace
 {
@@ -33,14 +34,9 @@ namespace
 		if (S == TEXT("end_conversation")) return EEverloreChatIntentType::EndConversation;
 		return EEverloreChatIntentType::None;
 	}
-
-	TSharedRef<FJsonObject> Simple(const FString& Type)
-	{
-		TSharedRef<FJsonObject> O = MakeShared<FJsonObject>();
-		O->SetStringField(TEXT("type"), Type);
-		return O;
-	}
 }
+
+using namespace Everlore::Json;
 
 FString FEverloreChatSchema::SystemPrompt(const FEverloreCharacterContext& C, bool bIntentsEnabled)
 {
