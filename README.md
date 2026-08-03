@@ -184,7 +184,8 @@ saved, or included in a request URL (they go in a request header only).
 This repository contains the **full source** of a commercial Unreal Engine plugin. It is **source-available, not open source**: read it, evaluate it, then buy a license to use it. See **the Fab Content License Agreement / Unreal Engine EULA (purchase required)**.
 
 **Get it / Buy:**
-- Listing folgt — Kontakt: simulatedflow@gmail.com
+- **Buy on Fab** (this plugin): https://www.fab.com/listings/9071cfba-70d8-4a7f-8c1e-957e4a11f3ab
+- Fab store — all our UE5 plugins: https://www.fab.com/sellers/Silvan%20Teufel
 
 ### 📬 **Free UE5 Snippet-Pack**
 
