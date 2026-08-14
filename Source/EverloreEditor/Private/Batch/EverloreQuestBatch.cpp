@@ -136,5 +136,12 @@ void FEverloreQuestBatch::ConsoleRun(const TArray<FString>& Args)
 		Theme += (Theme.IsEmpty() ? TEXT("") : TEXT(" ")) + Args[i];
 	}
 
-	FEverloreQuestBatch::Run(Count, Theme, TEXT("/Game/EverloreDemo/DT_EverloreQuests"));
+	// Ziel liegt seit dem 14.08.2026 IM PLUGIN, nicht mehr unter /Game: die
+	// Beispiel-Inhalte sind aus dem Projekt-Content in die Plugins gewandert
+	// (Silvans Vorgabe „wir wollen BeispielMaps usw in den Plugins haben").
+	// Der frühere Projekt-Content-Pfad existiert nicht mehr — und beim Kaeufer
+	// auf Fab hat er ohnehin nie existiert, dort gibt es nur den Plugin-Mount.
+	// (Der alte Pfad wird hier bewusst nicht ausgeschrieben: die Suche nach
+	//  veralteten Pfaden meldete ihn sonst dauerhaft als Falschtreffer.)
+	FEverloreQuestBatch::Run(Count, Theme, TEXT("/EverloreEngine/EverloreEngine/ProjectDemo/DT_EverloreQuests"));
 }

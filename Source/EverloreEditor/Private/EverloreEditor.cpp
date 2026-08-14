@@ -13,7 +13,7 @@ void FEverloreEditorModule::StartupModule()
 
 	IConsoleManager::Get().RegisterConsoleCommand(
 		TEXT("Everlore.BatchQuests"),
-		TEXT("Generate <count> guaranteed-valid quests through the pipeline and bake them into a DataTable at /Game/EverloreDemo/DT_EverloreQuests. Args: <count> [theme]."),
+		TEXT("Generate <count> guaranteed-valid quests through the pipeline and bake them into a DataTable at /EverloreEngine/EverloreEngine/ProjectDemo/DT_EverloreQuests. Args: <count> [theme]."),
 		FConsoleCommandWithArgsDelegate::CreateStatic(&FEverloreQuestBatch::ConsoleRun),
 		ECVF_Default);
 }
