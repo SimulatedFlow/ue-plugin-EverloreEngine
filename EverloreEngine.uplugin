@@ -8,7 +8,7 @@
 	"Category": "Code Plugins",
 	"CreatedBy": "Silvan Teufel",
 	"CreatedByURL": "https://silvan.teufel-engineering.com",
-	"DocsURL": "https://wiki.teufel-engineering.com/en/EverloreEngine/documentation",
+	"DocsURL": "https://github.com/SimulatedFlow/ue-plugin-EverloreEngine",
 	"SupportURL": "mailto:teufelsilvan@gmail.com",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
