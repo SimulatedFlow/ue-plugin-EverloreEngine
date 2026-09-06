@@ -75,7 +75,7 @@ authority by default so your keys stay server-side.
 
 Everlore Engine is the reliability layer that makes generative AI safe to ship.
 
-📖 Documentation: https://github.com/SimulatedFlow
+📖 Documentation: https://wiki.teufel-engineering.com/en/EverloreEngine/documentation
 ✉️ Support: teufelsilvan@gmail.com
 
 # ==================== TECHNICAL DETAILS ====================
@@ -110,7 +110,7 @@ Everlore Engine is the reliability layer that makes generative AI safe to ship.
 remote OpenAI-compatible endpoint) send prompts and player chat to that third-party service, subject
 to that provider's terms; local backends (Ollama, llama.cpp) keep data on-device. No API keys or
 model binaries are included with the plugin.
-**Documentation:** https://github.com/SimulatedFlow
+**Documentation:** https://wiki.teufel-engineering.com/en/EverloreEngine/documentation
 **Support:** teufelsilvan@gmail.com
 
 *Everlore Engine — © 2026 Silvan Teufel. All rights reserved.*

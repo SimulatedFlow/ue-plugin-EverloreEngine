@@ -171,7 +171,7 @@ saved, or included in a request URL (they go in a request header only).
 ## Support & version
 
 - **Version:** 1.0.0 (UE 5.8)
-- **Documentation:** <https://github.com/SimulatedFlow/documentation>
+- **Documentation:** <https://wiki.teufel-engineering.com/en/EverloreEngine/documentation>
 - **Support:** teufelsilvan@gmail.com
 
 ---

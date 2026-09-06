@@ -1,6 +1,6 @@
 <!--
   Everlore Engine — Wiki documentation (English).
-  Paste the body below into the Wiki.js editor at https://github.com/SimulatedFlow
+  Paste the body below into the Wiki.js editor at https://wiki.teufel-engineering.com/en/EverloreEngine/documentation
   (Wiki.js uses Markdown; headings auto-generate the page's table of contents.)
 -->
 
@@ -297,7 +297,7 @@ saved, or included in a request URL** — they are sent only in a request header
 
 ## Support
 
-- **Documentation:** https://github.com/SimulatedFlow
+- **Documentation:** https://wiki.teufel-engineering.com/en/EverloreEngine/documentation
 - **Support:** teufelsilvan@gmail.com
 - **Version:** 1.0.0 (UE 5.8)
 
